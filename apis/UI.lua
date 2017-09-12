@@ -34,5 +34,12 @@ return ui
 
 
 function ui:createObject(obj)
+  ui[obj] = {}
+end
+
+function ui:setObjSize(obj,w,h)
+  ui[obj].size = {}
+  ui[obj].size.width = w
+  ui[obj].size.height = h
 
 end
