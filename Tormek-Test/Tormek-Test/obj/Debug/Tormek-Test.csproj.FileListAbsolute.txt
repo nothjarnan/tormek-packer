@@ -7,3 +7,5 @@ C:\Users\linus\Documents\GitHub\tormek-packer\Tormek-Test\Tormek-Test\obj\Debug\
 C:\Users\linus\Documents\GitHub\tormek-packer\Tormek-Test\Tormek-Test\obj\Debug\Tormek-Test.csproj.GenerateResource.Cache
 C:\Users\linus\Documents\GitHub\tormek-packer\Tormek-Test\Tormek-Test\obj\Debug\Tormek-Test.exe
 C:\Users\linus\Documents\GitHub\tormek-packer\Tormek-Test\Tormek-Test\obj\Debug\Tormek-Test.pdb
+C:\Users\linus\Documents\GitHub\tormek-packer\Tormek-Test\Tormek-Test\bin\Debug\Products.mdf
+C:\Users\linus\Documents\GitHub\tormek-packer\Tormek-Test\Tormek-Test\bin\Debug\Products_log.ldf
