@@ -66,7 +66,6 @@ namespace Tormek_Test
             this.listBox1.MultiColumn = true;
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(210, 420);
-            this.listBox1.Sorted = true;
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -220,6 +219,7 @@ namespace Tormek_Test
             this.richTextBox1.Size = new System.Drawing.Size(229, 174);
             this.richTextBox1.TabIndex = 17;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // Form1
             // 
@@ -289,7 +289,7 @@ namespace Tormek_Test
             
         }
 
-        #endregion          9
+        #endregion          9   §1  §1 
         private EventHandler width_TextChanged;
         private EventHandler label2_Click;
         private ProductsDataSet productsDataSet;

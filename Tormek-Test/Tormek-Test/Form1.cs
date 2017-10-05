@@ -96,6 +96,32 @@ namespace Tormek_Test
 
         private void button2_Click(object sender, EventArgs e)
         {
+            string query = "DELETE FROM Product WHERE Name ='"+ richTextBox1.Text +"';";
+            using (connection = new SqlConnection(connectionString))
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                if (!checkBox1.Checked)
+                {
+                    connection.Open();
+                    label6.Text = "Status: connecting..";
+                    label6.Text = "Status: attempting delete.";
+                    command.ExecuteScalar();
+                    label6.Text = "Status: executed NonQuery";
+                    connection.Close();
+       
+                    label6.Text = "Status: connection closed successfully";
+                    populateRecipes();
+                }
+                else
+                {
+                    label6.Text = "ERROR: For some reason the item could not be deleted wtf?.";
+                }
+
+            }
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
